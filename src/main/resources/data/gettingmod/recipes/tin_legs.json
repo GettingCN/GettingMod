@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "T T",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "gettingmod:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "gettingmod:tin_material_legs",
+    "count": 1
+  }
+}

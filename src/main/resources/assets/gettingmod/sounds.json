@@ -1,0 +1,13 @@
+{
+    "i_got_smoke": {
+        "sounds": [
+            "gettingmod:i_got_smoke"
+        ]
+    },
+    "bright_piece": {
+        "sounds": [
+            "gettingmod:bright_piece",
+            "gettingmod:bright_piece_full"
+        ]
+    }
+}

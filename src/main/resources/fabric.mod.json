@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "gettingmod",
+  "version": "alpha1",
+
+  "name": "Getting Mod",
+  "description": "歌庭的学习模组",
+  "authors": [
+    "歌庭"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "ThreeBody.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.cngetting.gettingmod.Main"
+    ],
+    "client": [
+      "cn.cngetting.gettingmod.Client"
+    ],
+    "fabric-datagen": [
+      "cn.cngetting.gettingmod.datagen.ModDatagen"
+    ]
+  },
+  "mixins": [
+    "gettingmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.18",
+    "fabric": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:gettingmod/mod_start",
+  "criteria": {
+    "bright_piece": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gettingmod:bright_piece_disc"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "你那留于面颊上的泪水，是希望我来为你擦拭吗"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "gettingmod:bright_piece_disc"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "医者仁心"
+    }
+  },
+  "requirements": [
+    [
+      "bright_piece"
+    ]
+  ]
+}

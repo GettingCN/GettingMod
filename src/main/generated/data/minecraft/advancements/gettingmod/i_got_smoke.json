@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:gettingmod/mod_start",
+  "criteria": {
+    "i_got_smoke": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gettingmod:i_got_smoke_disc"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "或许我真的抽烟抽高了，就像你的人生糊弄一下就完了"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "gettingmod:i_got_smoke_disc"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "理塘传奇"
+    }
+  },
+  "requirements": [
+    [
+      "i_got_smoke"
+    ]
+  ]
+}

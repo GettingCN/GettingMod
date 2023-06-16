@@ -1,0 +1,32 @@
+{
+  "enchantment.gettingmod.frost": "剑霜",
+
+  "block.gettingmod.tin_ore": "锡矿",
+  "block.gettingmod.tin_block": "锡块",
+  "block.gettingmod.gold_block_disguise": "伪·金块",
+  "block.gettingmod.deco_block": "装饰方块",
+  "block.gettingmod.red_frame": "红色框架",
+  "block.gettingmod.container_block": "容器方块",
+  "block.gettingmod.box_block": "装饰箱",
+
+  "item.gettingmod.tin_ingot": "锡锭",
+  "item.gettingmod.tin_ingot.tooltip": "这是雪豹，这是猞猁，还有丁真",
+  "item.gettingmod.raw_tin": "粗锡",
+  "item.gettingmod.i_got_smoke_disc": "I Got Smoke",
+  "item.gettingmod.i_got_smoke_disc.desc": "I got smoke - V在燃烧 (我测你们码)",
+  "item.gettingmod.bright_piece_disc": "Bright Piece",
+  "item.gettingmod.bright_piece_disc.desc": "Bright Piece(格兰妮印象曲) - yozuca (天空无限延展，我们不停探寻)",
+
+  "item.gettingmod.tin_material_head": "锡制头盔",
+  "item.gettingmod.tin_material_chest": "锡制胸甲",
+  "item.gettingmod.tin_material_legs": "锡制裤腿",
+  "item.gettingmod.tin_material_feet": "锡制靴子",
+
+  "item.gettingmod.tin_pickaxe": "锡制镐",
+  "item.gettingmod.tin_axe": "锡制斧",
+  "item.gettingmod.tin_shovel": "锡制锹",
+  "item.gettingmod.tin_hoe": "锡制锄",
+  "item.gettingmod.tin_sword": "锡制剑",
+
+  "itemGroup.gettingmod.getting_item_group": "歌庭测试模组"
+}

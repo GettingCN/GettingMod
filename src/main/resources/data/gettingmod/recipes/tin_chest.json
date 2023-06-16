@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T T",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "gettingmod:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "gettingmod:tin_material_chest",
+    "count": 1
+  }
+}

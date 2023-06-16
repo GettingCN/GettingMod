@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TT ",
+    "TS ",
+    " S "
+  ],
+  "key": {
+    "T": {
+      "item": "gettingmod:tin_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gettingmod:tin_axe",
+    "count": 1
+  }
+}

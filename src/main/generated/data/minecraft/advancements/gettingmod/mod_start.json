@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "mod_start": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "这里是歌庭学习测试模组的进度开始"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "gettingmod:deco_block"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "开始吧，无尽群星"
+    }
+  },
+  "requirements": [
+    [
+      "mod_start"
+    ]
+  ]
+}
