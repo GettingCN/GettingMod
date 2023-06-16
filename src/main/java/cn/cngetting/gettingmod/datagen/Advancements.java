@@ -4,6 +4,7 @@ import cn.cngetting.gettingmod.Main;
 import cn.cngetting.gettingmod.sound.Music;
 import cn.cngetting.gettingmod.sound.Sounds;
 import cn.cngetting.gettingmod.block.ModBlocks;
+import cn.cngetting.gettingmod.util.ModId;
 import net.minecraft.advancement.Advancement;
 import net.minecraft.advancement.AdvancementFrame;
 import net.minecraft.advancement.criterion.InventoryChangedCriterion;
@@ -30,7 +31,7 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
                         false,                       // 在聊天框中提示
                         false                        // 在进度页面里隐藏
                 ).criterion("mod_start", InventoryChangedCriterion.Conditions.items(Items.WOODEN_PICKAXE))
-                .build(consumer, Main.ID + "/mod_start");
+                .build(consumer, ModId.ID + "/mod_start");
 
         Advancement brightPieceAdvancement = Advancement.Builder.create()
                 .display(
@@ -46,7 +47,7 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
                 // Criterion 中使用的第一个字符串是其他进度在需要 'requirements' 时引用的名字
                 .criterion("bright_piece", InventoryChangedCriterion.Conditions.items(Music.DISC_BRIGHT_PIECE))
                 .parent(modStartAdvancement)
-                .build(consumer, Main.ID + "/bright_piece");
+                .build(consumer, ModId.ID + "/bright_piece");
 
         Advancement iGotSmokeAdvancement = Advancement.Builder.create()
                 .display(
@@ -61,6 +62,6 @@ public class Advancements implements Consumer<Consumer<Advancement>> {
                 )
                 .criterion("i_got_smoke", InventoryChangedCriterion.Conditions.items(Music.DISC_I_GOT_SMOKE))
                 .parent(modStartAdvancement)
-                .build(consumer, Main.ID + "/i_got_smoke");
+                .build(consumer, ModId.ID + "/i_got_smoke");
     }
 }

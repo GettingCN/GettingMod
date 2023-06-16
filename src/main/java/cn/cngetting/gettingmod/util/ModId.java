@@ -4,7 +4,8 @@ import cn.cngetting.gettingmod.Main;
 import net.minecraft.util.Identifier;
 
 public class ModId {
-    public static final String ID = Main.ID;
+    public static final String ID = "gettingmod";
+    public static final String ID_ = "gettingmod:";
 
     public static Identifier of(String path){
         return Identifier.of(ID, path);
